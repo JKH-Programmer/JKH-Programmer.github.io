@@ -5,10 +5,16 @@ date: '2022-07-11'
 categories: Kotlin
 published: true
 ---
+## Layout
+
+Layout(レイアウト)とは, さまざまな要素を配置することができるカンバスと話せます。
+      
+## LinearLayout
+LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。
+</br> Viewの位置を指定せず自動的に羅列します。
+![LinearLayout.png]({{site.baseurl}}/_posts/LinearLayout.png)
 
 
-# ****Layout種類と速成****
-
-
-Layout(レイアウト)とは、さまざまな要素を配置することができるカンバスだと話せる
+## RelativeLayout
+RelativeLayoutとは、
 
