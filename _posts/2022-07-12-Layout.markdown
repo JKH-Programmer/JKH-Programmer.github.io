@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Layout"
-date:   2019-03-23 21:03:36 +0530
+date:   2022-07-12
 categories: Kotlin 
 ---
 
@@ -14,7 +14,7 @@ Layout(レイアウト)とは, さまざまな要素を配置することがで�
 
 ## LinearLayout
 
-LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>![image](/images/LinearLayout.PNG)
+LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>![](images/LinearLayout.png)
 <br>
 <br>
 
@@ -25,14 +25,14 @@ RelativeLayoutとは、特定基準パーツを決め<br>それとの相対的�
 <br>
 <br>
 
-![](images/RelativeLayout.PNG)
+![](images/RelativeLayout.png)
 
 ## TableLayout
 
 TableLayoutとは、テーブルみたいに横方向に羅列する行と縦方向に羅列する列の構造になっています。<br>
 文書で表を作成する過程みたいに位置を決めて使います。
 
-![](images/TableLayout.PNG)
+![](images/TableLayout.png)
 
 <br>
 
