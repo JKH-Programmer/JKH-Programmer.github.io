@@ -14,7 +14,7 @@ Layout(レイアウト)とは, さまざまな要素を配置することがで�
 
 ## LinearLayout
 
-LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>![](images/LinearLayout.png)
+LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>![](/assets/images/LinearLayout.png)
 <br>
 <br>
 
