@@ -25,14 +25,14 @@ RelativeLayoutとは、特定基準パーツを決め<br>それとの相対的�
 <br>
 <br>
 
-![](images/RelativeLayout.png)
+![](/assets/images/RelativeLayout.png)
 
 ## TableLayout
 
 TableLayoutとは、テーブルみたいに横方向に羅列する行と縦方向に羅列する列の構造になっています。<br>
 文書で表を作成する過程みたいに位置を決めて使います。
 
-![](images/TableLayout.png)
+![](/assets/images/TableLayout.png)
 
 <br>
 
@@ -41,7 +41,7 @@ TableLayoutとは、テーブルみたいに横方向に羅列する行と縦方
 FrameLayoutとは、子(レイアウト)と追加された色んなウィジェット(Widget)たちを重畳し全面に表示するとき使うレイアウトです、色んなビューたちを重ねって配置する特徴がビューを重ねず順繰りに画面に配置するLinearLayoutと差があります。
 <br>
 
-![](images/FrameLayout.png)
+![](/assets/images/FrameLayout.png)
 <br>
 
 ## ConstraintLayout
@@ -51,6 +51,6 @@ ConstraintLayoutとは、制約型レイアウトと正義しパツとパツの�
 
 
 
-![](images/ConstraintLayout.png)
+![](/assets/images/ConstraintLayout.png)
 
 
