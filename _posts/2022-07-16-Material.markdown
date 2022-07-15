@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Material"
+date:   2022-07-16
+categories: Kotlin 
+---
+
+## Material
+
+
+Material(レイアウト)とは, さまざまな要素を配置することができるカンバスと話せます。
+<br>
+<br>
+
+![](../assets/images/Develop.png)
+
+## 開発環境
+
+
+```kotlin
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/gihhub_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="132dp"
+            android:text="login"
+            android:textAllCaps="true"
+            android:textSize="18sp"></TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+```
+
+## LinearLayout
+
+
+
+

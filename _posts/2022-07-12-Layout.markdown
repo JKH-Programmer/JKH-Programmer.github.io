@@ -46,7 +46,7 @@ FrameLayoutとは、子(レイアウト)と追加された色んなウィジェ�
 
 ## ConstraintLayout
 
-ConstraintLayoutとは、制約型レイアウトと正義しパツとパツの条件を掛ける関係型(RelativeLayout)と同一する誠実を持っています。
+ConstraintLayoutとは、制約型レイアウトと正義しパツとパツの条件を掛ける関係型(RelativeLayout)と同一する性質を持っています。
 
 
 
