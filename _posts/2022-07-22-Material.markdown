@@ -16,14 +16,40 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 로그인 페이지를 구성하기위한 개발환경 구성
 
 <br>
-<p>
-<div class=pull-left>
+
 ![](/assets/images/MaterialDevelop.png)
-</div>
 
-시작하기 위해 로그인 페이지에 사용자 이름과 비밀번호를 입력할 수 있는 두 개의 텍스트 필드를 추가합니다. 부동 레이블 및 오류 메시지를 표시하는 기본 제공 기능이 포함된 MDC 텍스트 필드 구성 요소를 사용합니다.
+<img src="/assets/images/MaterialDevelop.png">
 
-</p>
+```kotlin
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/gihhub_image"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginBottom="132dp"
+         android:text="login"
+         android:textAllCaps="true"
+         android:textSize="18sp"/>
+
+</LinearLayout>
+```
 
 ## 텍스트필드 추가
 
