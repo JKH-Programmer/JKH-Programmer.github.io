@@ -18,15 +18,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 로그인 페이지를 구성하기위한 개발환경 구성
 <br>
 
-
 ![](/assets/images/MaterialDevelop.png)
-
-<br>
-
-![](../assets/images/MaterialDevelop.png)
-
-<br>
-
 
 
 ## 텍스트필드 추가
@@ -35,7 +27,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 
 <div style="float: left">
-![](./assets/images/Materialtextfild.png)
+![](/assets/images/Materialtextfild.png)
 </div>
 
 ```kotlin
