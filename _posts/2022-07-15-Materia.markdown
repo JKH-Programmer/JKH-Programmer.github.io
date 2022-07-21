@@ -12,7 +12,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 ## LinearLayout
 
-LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>![](/assets/images/MaterialDevelop.png)
+LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>
 <br>
 <br>
 
