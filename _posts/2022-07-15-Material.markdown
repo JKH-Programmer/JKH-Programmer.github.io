@@ -15,20 +15,9 @@ categories: Kotlin
 
 <br>
 
-<div style="float: left">
-![](./assets/images/MaterialDevelop.png)
-</div>
+![](../assets/images/MaterialDevelop.png)
 
 
-
-<div style="float: left">
-![](./assets/images/Materialtextfild.png)
-</div>
-
-
-<div style="float: left">
-![](./assets/images/Materialbutton.png)
-</div>
 
 
 
