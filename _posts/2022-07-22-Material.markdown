@@ -17,9 +17,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 <br>
 
-![](/assets/images/MaterialDevelop.png)
-
-<img src="/assets/images/MaterialDevelop.png">
+<img align="left" src="/assets/images/MaterialDevelop.png">
 
 ```kotlin
 <LinearLayout
@@ -55,7 +53,8 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 시작하기 위해 로그인 페이지에 사용자 이름과 비밀번호를 입력할 수 있는 두 개의 텍스트 필드를 추가합니다. 부동 레이블 및 오류 메시지를 표시하는 기본 제공 기능이 포함된 MDC 텍스트 필드 구성 요소를 사용합니다.
 
-
+<div>
+    
 <div style="float: left">
 ![](/assets/images/Materialtextfild.png)
 </div>
@@ -91,13 +90,14 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 </com.google.android.material.textfield.TextInputLayout>
 ```
+</div>
 
 ## 버튼추가
 
 
 
 <div style="float: left">
-![](./assets/images/Materialbutton.png)
+![](/assets/images/Materialbutton.png)
 </div>
 
 ```kotlin
