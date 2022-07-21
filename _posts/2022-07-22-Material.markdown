@@ -66,12 +66,12 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 <br>
 
 <div>
-<div style="float: left">
+<div style="float: right">
 <img src="/assets/images/Materialtextfild.png">
 </div>
 <div>
 
-```kotlin
+```java
 <com.google.android.material.textfield.TextInputLayout
     android:id="@+id/username_text_input"
     android:layout_width="match_parent"
