@@ -100,18 +100,5 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 ![](../assets/images/Materialbutton.png)
 
 
-```kotlin
-<Button
-    android:id="@+id/elevatedButton"
-    style="@style/Widget.Material3.Button.ElevatedButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="right"
-    android:text="Next"
-    android:textColor="@color/black"
-    android:textSize="15dp"
-    app:backgroundTint="@color/white"
-    app:cornerRadius="50dp"
-    app:strokeWidth="0.8dp" />
-```
+
 
