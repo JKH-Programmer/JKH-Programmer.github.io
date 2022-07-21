@@ -9,6 +9,7 @@ categories: Kotlin
 머티리얼 디자인이란
 Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실제 개체를 모방하는 큐가 풍부한 기능과 자연스러운 동작을 통해 화면 터치 경험을 지원합니다 . 디자이너는 플랫폼과 일치하는 몰입형 GUI에서 3D 효과, 사실적인 조명 및 애니메이션 기능으로 사용자 경험을 최적화합니다.
 
+
 <br>
 
 
@@ -59,7 +60,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 <div>
 <div style="float: left">
-![](../assets/images/Materialtextfild.png)
+![](../assets/images/ConstraintLayout.png)
 </div>
 
 ```kotlin
@@ -97,8 +98,24 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 ## 버튼추가
 
+<div>
+<div class = pull-left>
 ![](../assets/images/Materialbutton.png)
+</div>
 
-
-
+```kotlin
+<Button
+    android:id="@+id/elevatedButton"
+    style="@style/Widget.Material3.Button.ElevatedButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="Next"
+    android:textColor="@color/black"
+    android:textSize="15dp"
+    app:backgroundTint="@color/white"
+    app:cornerRadius="50dp"
+    app:strokeWidth="0.8dp" />
+```
+</div>
 
