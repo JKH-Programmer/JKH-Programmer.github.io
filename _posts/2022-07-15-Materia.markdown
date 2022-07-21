@@ -1,21 +1,18 @@
 ---
 published: true
 layout: post
-title:  "Layout"
-date:   2022-07-12
+title:  "Material"
+date:   2022-07-22
 categories: Kotlin 
 ---
 
-## Layout
+머티리얼 디자인이란
+Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실제 개체를 모방하는 큐가 풍부한 기능과 자연스러운 동작을 통해 화면 터치 경험을 지원합니다 . 디자이너는 플랫폼과 일치하는 몰입형 GUI에서 3D 효과, 사실적인 조명 및 애니메이션 기능으로 사용자 경험을 최적화합니다.
 
-
-Layout(レイアウト)とは, さまざまな要素を配置することができるカンバスと話せます。
-<br>
-<br>
 
 ## LinearLayout
 
-LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>![](/assets/images/LinearLayout.png)
+LinearLayoutとは、 **横**或いは**縦**方向に一列するとき使います。<br>Viewの位置を指定せず自動的に羅列します。<br><br>![](/assets/images/MaterialDevelop.png)
 <br>
 <br>
 
