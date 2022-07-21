@@ -10,16 +10,47 @@ categories: Kotlin
 Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실제 개체를 모방하는 큐가 풍부한 기능과 자연스러운 동작을 통해 화면 터치 경험을 지원합니다 . 디자이너는 플랫폼과 일치하는 몰입형 GUI에서 3D 효과, 사실적인 조명 및 애니메이션 기능으로 사용자 경험을 최적화합니다.
 
 
-<br>
-
 
 ## 開発環境
 
 로그인 페이지를 구성하기위한 개발환경 구성
+
 <br>
-
+<p>
+<div class=pull-left>
 ![](/assets/images/MaterialDevelop.png)
+</div>
 
+```kotlin
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/gihhub_image"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginBottom="132dp"
+         android:text="login"
+         android:textAllCaps="true"
+         android:textSize="18sp"/>
+
+</LinearLayout>
+```
+</p>
 
 ## 텍스트필드 추가
 
