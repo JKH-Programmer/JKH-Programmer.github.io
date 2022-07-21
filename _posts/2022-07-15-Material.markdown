@@ -19,7 +19,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 <br>
 
 <div style="float: left">
-![](../assets/images/MaterialDevelop.png)
+![](/assets/images/MaterialDevelop.png)
 </div>
 
 ```kotlin
@@ -60,7 +60,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 
 <div style="float: left">
-![](../assets/images/ConstraintLayout.png)
+![](/assets/images/ConstraintLayout.png)
 </div>
 
 ```kotlin
@@ -99,7 +99,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 
 <div style="float: left">
-![](../assets/images/Materialbutton.png)
+![](/assets/images/Materialbutton.png)
 </div>
 
 ```kotlin
