@@ -19,9 +19,9 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 <div>
 <div style="float: left">
-<img src="/assets/images/MaterialDevelop.png">
+<img src="/assets/images/MaterialDevelop.png" style="width: 100px height: 90px">
 </div>
-<div>
+<div style="width: 100px height: 90px">
 
 ```kotlin
 <LinearLayout
@@ -53,6 +53,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 </LinearLayout>
 ```
 </div>
+
 </div>
 
 
