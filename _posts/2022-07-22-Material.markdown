@@ -1,0 +1,122 @@
+---
+published: true
+layout: post
+title:  "Material"
+date:   2022-07-22
+categories: Kotlin
+---
+
+머티리얼 디자인이란
+Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실제 개체를 모방하는 큐가 풍부한 기능과 자연스러운 동작을 통해 화면 터치 경험을 지원합니다 . 디자이너는 플랫폼과 일치하는 몰입형 GUI에서 3D 효과, 사실적인 조명 및 애니메이션 기능으로 사용자 경험을 최적화합니다.
+
+
+<br>
+
+
+## 開発環境
+
+로그인 페이지를 구성하기위한 개발환경 구성
+<br>
+
+<div style="float: left">
+![](./assets/images/MaterialDevelop.png)
+</div>
+
+```kotlin
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/gihhub_image"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginBottom="132dp"
+         android:text="login"
+         android:textAllCaps="true"
+         android:textSize="18sp"/>
+
+</LinearLayout>
+```
+
+
+
+## 텍스트필드 추가
+
+시작하기 위해 로그인 페이지에 사용자 이름과 비밀번호를 입력할 수 있는 두 개의 텍스트 필드를 추가합니다. 부동 레이블 및 오류 메시지를 표시하는 기본 제공 기능이 포함된 MDC 텍스트 필드 구성 요소를 사용합니다.
+
+
+<div style="float: left">
+![](./assets/images/Materialtextfild.png)
+</div>
+
+```kotlin
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/username_text_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:hint="@string/shr_hint_username"
+    app:errorEnabled="true">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/username_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+</com.google.android.material.textfield.TextInputLayout>
+ 
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/password_text_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:hint="@string/shr_hint_password"
+    app:errorEnabled="true">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/password_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+
+## 버튼추가
+
+<br>
+![](./assets/images/Materialbutton.png)
+<br>
+
+<div style="float: left">
+![](./assets/images/Materialbutton.png)
+</div>
+
+```kotlin
+<Button
+    android:id="@+id/elevatedButton"
+    style="@style/Widget.Material3.Button.ElevatedButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="Next"
+    android:textColor="@color/black"
+    android:textSize="15dp"
+    app:backgroundTint="@color/white"
+    app:cornerRadius="50dp"
+    app:strokeWidth="0.8dp" />
+```
+
