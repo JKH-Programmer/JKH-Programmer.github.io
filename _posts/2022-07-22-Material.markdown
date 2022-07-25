@@ -19,9 +19,9 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 <div>
 <div style="float: left">
-<img src="/assets/images/MaterialDevelop.png" style="width: 90px height:90px">
+<img src="/assets/images/MaterialDevelop.png">
 </div>
-<div>
+<div style ="width: 420px" >
 
 ```kotlin
 <LinearLayout
@@ -66,42 +66,11 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 <br>
 
 <div>
-<div style="float: right">
+<div style="float: left">
 <img src="/assets/images/Materialtextfild.png">
 </div>
 <div>
 
-```java
-<com.google.android.material.textfield.TextInputLayout
-    android:id="@+id/username_text_input"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="4dp"
-    android:hint="@string/shr_hint_username"
-    app:errorEnabled="true">
-
-<com.google.android.material.textfield.TextInputEditText
-    android:id="@+id/username_edit_text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-</com.google.android.material.textfield.TextInputLayout>
- 
-<com.google.android.material.textfield.TextInputLayout
-    android:id="@+id/password_text_input"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="4dp"
-    android:hint="@string/shr_hint_password"
-    app:errorEnabled="true">
-
-<com.google.android.material.textfield.TextInputEditText
-    android:id="@+id/password_edit_text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:inputType="textPassword" />
-
-</com.google.android.material.textfield.TextInputLayout>
-```
 </div>
 </div>
 
@@ -116,20 +85,6 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 </div>
 <div>
 
-```kotlin
-<Button
-    android:id="@+id/elevatedButton"
-    style="@style/Widget.Material3.Button.ElevatedButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="right"
-    android:text="Next"
-    android:textColor="@color/black"
-    android:textSize="15dp"
-    app:backgroundTint="@color/white"
-    app:cornerRadius="50dp"
-    app:strokeWidth="0.8dp" />
-```
 </div>
 </div>
 
