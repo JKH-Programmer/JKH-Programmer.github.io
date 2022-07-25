@@ -21,9 +21,11 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 <img src="/assets/images/MaterialDevelop.png"
 style="height:100%px ; margin-right: 20px ; float: left ; text-align:center ">
 </div>
+<div>
 <script src="https://gist.github.com/JKH-Programmer/09fb01418ea3c4208ac3e3a6f8762d16.js" 
 style="width:100px; height:100%px ; float: left; text-align:center">
 </script>
+</div>
 
 
 
