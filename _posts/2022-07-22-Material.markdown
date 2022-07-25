@@ -16,13 +16,16 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 로그인 페이지를 구성하기위한 개발환경 구성
 
 <br>
-<p style = "float: left">
-![](/assets/images/MaterialDevelop.png)
-
+<div style ="float : left">
+<img src = "/assets/images/MaterialDevelop.png">
+</div>
+<div  style ="float : left">
 <script src="https://gist.github.com/JKH-Programmer/09fb01418ea3c4208ac3e3a6f8762d16.js" 
 style="width:50%px; height:100%px">
 </script>
-</p>
+</div>
+
+</div>
 
 
 
