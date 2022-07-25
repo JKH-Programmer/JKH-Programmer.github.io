@@ -35,7 +35,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 <br>
 <div>
-<img src = "/assets/images/MaterialDevelop.png" style ="height:100%px ; float:left">
+<img src = "/assets/images/Materialtextfield.png" style ="height:100%px ; float:left">
 
 <script src="https://gist.github.com/JKH-Programmer/565f19f746a1d49df8f0ec0213e54523.js"></script>
 </div>
@@ -50,7 +50,7 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 
 <br>
 <div>
-<img src = "/assets/images/MaterialDevelop.png" style ="height:100%px ; float:left">
+<img src = "/assets/images/Materialbutton.png" style ="height:100%px ; float:left">
 
 <script src="https://gist.github.com/JKH-Programmer/072fb8dd87789f043890fa760171e065.js"></script>
 </div>
