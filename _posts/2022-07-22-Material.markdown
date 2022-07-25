@@ -26,6 +26,33 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 </div>
 
 
+## 텍스트필드 추가
+
+시작하기 위해 로그인 페이지에 사용자 이름과 비밀번호를 입력할 수 있는 두 개의 텍스트 필드를 추가합니다. 부동 레이블 및 오류 메시지를 표시하는 기본 제공 기능이 포함된 MDC 텍스트 필드 구성 요소를 사용합니다.
+
+<br>
+
+<div style ="margin-right: 20px ; float:left ; height:100%px">
+<img src = "/assets/images/Materialtextfield.png">
+</div>
+
+<div style="width:420px; height:100%px ;float:left ;">
+<script src="https://gist.github.com/JKH-Programmer/565f19f746a1d49df8f0ec0213e54523.js"></script>
+</div>
+
+
+## 버튼추가
+
+<br>
+
+
+<div style ="margin-right: 20px ; float:left ; height:100%px">
+<img src = "/assets/images/Materialbutton.png">
+</div>
+
+<div style="width:420px; height:100%px ;float:left ;">
+<script src="https://gist.github.com/JKH-Programmer/072fb8dd87789f043890fa760171e065.js"></script>
+</div>
 
 
 
