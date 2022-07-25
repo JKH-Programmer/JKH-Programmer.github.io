@@ -22,38 +22,9 @@ Material Design은 Google에서 만든 Android 지향 디자인 언어로, 실�
 <img src="/assets/images/MaterialDevelop.png"
 style="width:50%px; height:100%px">
 </div>
-<pre style ="width:50%px; height:100%px" >
-
-```kotlin
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:clipChildren="false"
-    android:clipToPadding="false"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:paddingTop="16dp">
-
-    <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="48dp"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@drawable/gihhub_image"/>
-
-     <TextView
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_gravity="center_horizontal"
-         android:layout_marginBottom="132dp"
-         android:text="login"
-         android:textAllCaps="true"
-         android:textSize="18sp"/>
-
-</LinearLayout>
-```
-</pre>
+<div>
+<script src="https://gist.github.com/JKH-Programmer/09fb01418ea3c4208ac3e3a6f8762d16.js" style="width:50%px; height:100%px"></script>
+</div>
 
 </div>
 
